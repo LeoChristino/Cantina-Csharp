@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace EmpresaABC
 {
-    public partial class frmMenuPrincipal : Form
+    public partial class frmFuncionarios : Form
     {
-        public frmMenuPrincipal()
+        public frmFuncionarios()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmMenuPrincipal_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
