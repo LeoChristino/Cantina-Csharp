@@ -10,3 +10,16 @@ C:\Users\Laboratorio-Info\source\repos\EmpresaABC\EmpresaABC\obj\Debug\EmpresaAB
 C:\Users\Laboratorio-Info\source\repos\EmpresaABC\EmpresaABC\obj\Debug\EmpresaABC.frmSplash.resources
 C:\Users\Laboratorio-Info\source\repos\EmpresaABC\EmpresaABC\obj\Debug\EmpresaABC.frmLogin.resources
 C:\Users\Laboratorio-Info\source\repos\EmpresaABC\EmpresaABC\obj\Debug\EmpresaABC.frmMenuPrincipal.resources
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\bin\Debug\EmpresaABC.exe.config
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\bin\Debug\EmpresaABC.exe
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\bin\Debug\EmpresaABC.pdb
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.csproj.AssemblyReference.cache
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.frmFuncionarios.resources
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.frmLogin.resources
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.frmMenuPrincipal.resources
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.frmSplash.resources
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.Properties.Resources.resources
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.csproj.GenerateResource.cache
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.exe
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.pdb

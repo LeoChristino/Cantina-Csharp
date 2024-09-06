@@ -53,6 +53,7 @@ namespace EmpresaABC
             this.btnFunc.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFunc.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFunc.UseVisualStyleBackColor = true;
+            this.btnFunc.Click += new System.EventHandler(this.btnFunc_Click);
             // 
             // btnCli
             // 

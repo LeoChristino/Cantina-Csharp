@@ -26,5 +26,12 @@ namespace EmpresaABC
         {
 
         }
+
+        private void btnFunc_Click(object sender, EventArgs e)
+        {
+            frmFuncionarios abrir = new frmFuncionarios();
+            abrir.Show();
+            this.Hide();
+        }
     }
 }

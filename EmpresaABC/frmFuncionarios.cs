@@ -15,6 +15,8 @@ namespace EmpresaABC
         public frmFuncionarios()
         {
             InitializeComponent();
+            // executando método de desabilitar campos
+            desabilitasCampos();
         }
 
         private void frmFuncionarios_Load(object sender, EventArgs e)
@@ -49,16 +51,73 @@ namespace EmpresaABC
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            frmMenuPrincipal abrir = new frmMenuPrincipal();
+            abrir.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            habilitarCampos();
+            btnNovo.Enabled = false;
+            txtNome.Focus();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        //criando método desabilitar campos 
+        public void desabilitasCampos()
+        {
+            txtBairro.Enabled = false;
+            txtCidade.Enabled = false;
+            txtCod.Enabled = false;
+            txtEmail.Enabled = false;
+            txtEnd.Enabled = false;
+            txtNome.Enabled = false;
+            txtNun.Enabled = false;
+            mskCEP.Enabled = false;
+            mskCPF.Enabled = false;
+            mskTel.Enabled = false;
+            cbbEstado.Enabled = false;
+            btnCadastrar.Enabled = false;
+            btnExcluir.Enabled = false;
+            btnAlterar.Enabled = false;
+            btnLimpar.Enabled = false;  
+        }
+        //criando método desabilitar campos 
+        public void habilitarCampos()
+        {
+            txtBairro.Enabled = true;
+            txtCidade.Enabled = true;
+            txtEmail.Enabled = true;
+            txtEnd.Enabled = true;
+            txtNome.Enabled = true;
+            txtNun.Enabled = true;
+            mskCEP.Enabled = true;
+            mskCPF.Enabled = true;
+            mskTel.Enabled = true;
+            cbbEstado.Enabled = true;
+            btnCadastrar.Enabled = true;
+            btnLimpar.Enabled = true;
+
 
         }
     }
