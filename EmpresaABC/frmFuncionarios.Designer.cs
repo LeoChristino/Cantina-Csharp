@@ -113,7 +113,7 @@ namespace EmpresaABC
             // btnPesquisar
             // 
             this.btnPesquisar.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisar.Image")));
-            this.btnPesquisar.Location = new System.Drawing.Point(448, 13);
+            this.btnPesquisar.Location = new System.Drawing.Point(448, 12);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(102, 52);
             this.btnPesquisar.TabIndex = 11;
@@ -309,6 +309,8 @@ namespace EmpresaABC
             this.mskCEP.Name = "mskCEP";
             this.mskCEP.Size = new System.Drawing.Size(111, 26);
             this.mskCEP.TabIndex = 5;
+            this.mskCEP.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mskCEP_MaskInputRejected);
+            this.mskCEP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Keys);
             // 
             // mskCPF
             // 
@@ -390,6 +392,7 @@ namespace EmpresaABC
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // frmFuncionarios
             // 

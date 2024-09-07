@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MosaicoSolutions.ViaCep;
 
 namespace EmpresaABC
 {
@@ -26,7 +27,29 @@ namespace EmpresaABC
 
         private void button6_Click(object sender, EventArgs e)
         {
+            //verificando se os campos estão preenchidos
+            if (txtNome.Text.Equals("") 
+                || txtEmail.Text.Equals("")
+                || mskCPF.Text.Equals("   ,   ,   -") 
+                || mskCEP.Text.Equals("     -")
+                || mskTel.Text.Equals("     -") 
+                || txtEnd.Text.Equals("") 
+                || txtNun.Text.Equals("") 
+                || txtBairro.Text.Equals("") 
+                || txtCidade.Text.Equals("") 
+                || cbbEstado.Text.Equals(""))
+            {
+                MessageBox.Show("Não deixar campos vazios.");
 
+            }
+            else
+            {
+                MessageBox.Show("Cadastrado com sucesso!!!");
+                desabilitasCampos();
+                limparCampos();
+
+
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -118,6 +141,40 @@ namespace EmpresaABC
             btnCadastrar.Enabled = true;
             btnLimpar.Enabled = true;
 
+
+        }
+
+         //criando método limpar campos 
+            public void limparCampos()
+            {
+                txtBairro.Clear();
+                txtCidade.Clear();
+                txtCod.Clear();
+                txtEmail.Clear();
+                txtEnd.Clear();
+                txtNome.Clear();
+                txtNun.Clear();
+                mskCEP.Clear();
+                mskCPF.Clear();
+                mskTel.Clear();
+                cbbEstado.Text = "";
+                btnCadastrar.Enabled = false;
+                btnExcluir.Enabled = false;
+                btnAlterar.Enabled = false;
+                btnLimpar.Enabled = false;
+                btnNovo.Enabled = true;
+            }
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            limparCampos();
+        }
+
+        private void mskCEP_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+        }
+
+        private void Keys(object sender, KeyEventArgs e)
+        {
 
         }
     }

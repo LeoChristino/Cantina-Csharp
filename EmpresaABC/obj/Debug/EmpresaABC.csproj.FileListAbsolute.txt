@@ -23,3 +23,8 @@ C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\Empre
 C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.csproj.CoreCompileInputs.cache
 C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.exe
 C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.pdb
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\bin\Debug\MosaicoSolutions.ViaCep.dll
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Laboratorio-Info\Source\Repos\Cantina-Csharp\EmpresaABC\obj\Debug\EmpresaABC.csproj.CopyComplete
